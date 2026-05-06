@@ -142,3 +142,108 @@ a {
   font-size: 18px;
   line-height: 1.7;
 }
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.admin-header h1 {
+  margin: 0 0 8px;
+}
+
+.admin-header p {
+  margin: 0;
+  color: #666;
+}
+
+.admin-create-link {
+  background: #8b5e34;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-item {
+  background: #fff;
+  border: 1px solid #eadfce;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.admin-item h3 {
+  margin: 0 0 8px;
+}
+
+.admin-item p {
+  margin: 0;
+  color: #666;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.admin-actions a,
+.admin-actions button,
+.post-form button {
+  border: none;
+  background: #8b5e34;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.admin-actions button {
+  background: #9c2f2f;
+}
+
+.post-form {
+  max-width: 720px;
+  background: #fff;
+  border: 1px solid #eadfce;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.post-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  border: 1px solid #d8cabb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font: inherit;
+}
+
+.post-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
