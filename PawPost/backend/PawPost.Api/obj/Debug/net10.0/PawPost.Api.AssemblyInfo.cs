@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PawPost.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5ddcf70e1662ec64eb0269e0ffc3d63d076091c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b4533a507ba4658d16329b23d3d0ee4f530c849")]
 [assembly: System.Reflection.AssemblyProductAttribute("PawPost.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PawPost.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

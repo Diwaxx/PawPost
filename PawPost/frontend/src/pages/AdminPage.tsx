@@ -6,10 +6,14 @@ import type { AnimalPost } from "../types/post";
 export function AdminPage() {
   const [posts, setPosts] = useState<AnimalPost[]>([]);
   const [loading, setLoading] = useState(true);
-
+  const [error, setError] = useState("");
   async function loadPosts() {
-    const data = await getPosts();
-    setPosts(data);
+    try {
+      const data = await getPosts();
+      setPosts(data);
+    } catch {
+      setError("Не удалось загрузить посты");
+    }
   }
 
   async function handleDelete(id: number) {
@@ -41,6 +45,9 @@ export function AdminPage() {
       </div>
 
       <div className="admin-list">
+        {posts.length === 0 && (
+          <div className="empty-state">Постов пока нет</div>
+        )}
         {posts.map((post) => (
           <div className="admin-item" key={post.id}>
             <div>

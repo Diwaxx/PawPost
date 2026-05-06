@@ -31,7 +31,11 @@ export function PostDetailsPage() {
 
       <article className="details">
         {post.imageUrl && (
-          <img src={post.imageUrl} alt={post.title} className="details__image" />
+          <img
+            src={post.imageUrl}
+            alt={post.title}
+            className="details__image"
+          />
         )}
 
         <span className="details__category">
@@ -41,6 +45,15 @@ export function PostDetailsPage() {
         <h1>{post.title}</h1>
         <p className="details__short">{post.shortDescription}</p>
         <p className="details__full">{post.fullDescription}</p>
+        <p>
+          {" "}
+          Дата публикации:{" "}
+          {new Date(post.createdAt).toLocaleDateString("ru-RU", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
       </article>
     </main>
   );

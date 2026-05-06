@@ -24,7 +24,7 @@ export function HomePage() {
         <h1>PawPost</h1>
         <p>Каталог постов про животных</p>
       </section>
-
+      {posts.length === 0 && <div className="empty-state">Постов пока нет</div>}
       <section className="posts-grid">
         {posts.map((post) => (
           <PostCard key={post.id} post={post} />
