@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\pawpost.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|solutionrelative:pawpost.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E863AC60-AA10-3074-6300-AE68F7F2E30B}|PawPost.Api.csproj|c:\\users\\admin\\documents\\github\\pawpost\\pawpost\\backend\\pawpost.api\\repositories\\postsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T05:37:02.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PawPost.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\PawPost.Api.csproj",
-              "RelativeDocumentMoniker": "PawPost.Api.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\PawPost.Api.csproj",
-              "RelativeToolTip": "PawPost.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-06T05:35:03.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
@@ -89,7 +63,21 @@
               "RelativeToolTip": "Repositories\\PostsRepository.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAiwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T05:43:08.217Z"
+              "WhenOpened": "2026-05-06T05:43:08.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T05:37:02.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -101,7 +89,21 @@
               "RelativeToolTip": "Database\\DbConnectionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T05:35:28.629Z"
+              "WhenOpened": "2026-05-06T05:35:28.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PawPost.Api",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\PawPost.Api.csproj",
+              "RelativeDocumentMoniker": "PawPost.Api.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PawPost\\PawPost\\backend\\PawPost.Api\\PawPost.Api.csproj",
+              "RelativeToolTip": "PawPost.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T05:35:03.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,7 +115,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-06T05:33:42.262Z"
+              "WhenOpened": "2026-05-06T05:33:42.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,7 +128,8 @@
               "RelativeToolTip": "Models\\AnimalPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T05:32:58.543Z"
+              "WhenOpened": "2026-05-06T05:32:58.543Z",
+              "EditorCaption": ""
             }
           ]
         }
